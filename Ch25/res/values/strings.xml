@@ -1,0 +1,8 @@
+<resources>
+<item type="id" name="menu_da_clear"/>
+<string name="tpda_informational_message">
+You can use this activity to test 2 types of Android storage. First approach
+is to store objects using a content provider. The second approach is to 
+use SQLite directly. Buttons below invoke activities to test each approach.     
+</string>
+</resources>

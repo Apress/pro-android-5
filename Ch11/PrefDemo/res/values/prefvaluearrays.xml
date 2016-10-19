@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is /res/values/prefvaluearrays.xml -->
+<resources>
+<string-array name="flight_sort_options_values">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+</string-array>
+<string-array name="pizza_toppings_values">
+    <item>cheese</item>
+    <item>pepperoni</item>
+    <item>onion</item>
+    <item>mushroom</item>
+    <item>olive</item>
+    <item>ham</item>
+    <item>pineapple</item>
+</string-array>
+<string-array name="default_pizza_toppings">
+    <item>cheese</item>
+    <item>pepperoni</item>
+</string-array>
+</resources>

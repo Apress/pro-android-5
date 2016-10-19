@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TextView Demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="tvtext1">I am a TextView</string>
+    <string name="tvtext2">The field below can Autocomplete</string>
+    <string name="tvtext3">Below is a MultiLine AutoComplete</string>
+    <string name="edittexthint">This is an EditText</string>
+    <string name="AutoCompleteHintText1">AutoComplete</string>
+    <string name="MultiAutoCompleteHintText1">MultiAutoComplete</string>
+    
+    
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+*********************************************
+* spb_show_progressbars_activity_layout.xml
+* prefix: spb_
+* Test a number of progress bars
+* Controls: 
+* 	A series of progress bars
+*********************************************
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <!--  Regular Progress bar: a rotating circle -->
+	<TextView  
+    	android:layout_width="fill_parent"  android:layout_height="wrap_content" 
+    	android:text="Regular progress bar: Spinner" android:layout_marginTop="10dp"
+    />
+    <ProgressBar
+        android:id="@+id/spb_progressBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="@android:color/background_light"/>
+    
+    <!--  Regular Progress bar as a Small spinning circle -->
+    <TextView  
+    	android:layout_width="fill_parent"  android:layout_height="wrap_content" 
+    	android:text="Small progress bar: Spinner" android:layout_marginTop="10dp"
+    />
+    <ProgressBar
+        android:id="@+id/spb_progressBar4"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="@android:color/background_light"/>
+    
+    <!--  Horizontal indefinite Progress bar: a line -->
+    <TextView  
+    	android:layout_width="fill_parent"  android:layout_height="wrap_content" 
+    	android:text="Indeterminate progress bar" android:layout_marginTop="10dp"
+    />
+    <ProgressBar
+        android:id="@+id/spb_progressBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:indeterminate="true"
+        />
+    
+     <!--  Horizontal Progress bar: a line -->
+    <TextView  
+    	android:layout_width="fill_parent"  android:layout_height="wrap_content" 
+    	android:text="Fixed Duration Progress bar" android:layout_marginTop="10dp"
+    />
+    <ProgressBar
+        android:id="@+id/spb_progressBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:indeterminate="false"
+        android:max="50"
+        android:progress="10"
+        />   
+</LinearLayout>

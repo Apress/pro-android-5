@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MessengerService</string>
+    <string name="remote_service_started">Remote Service started</string>
+    <string name="remote_service_stopped">Remote Service stopped</string>
+    <string name="remote_service_label">Remote Service label</string>
+</resources>

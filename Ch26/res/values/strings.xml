@@ -1,0 +1,17 @@
+<resources>
+<string name="tla_header">
+This is a ListActivity with custom content view. 
+It contains this header, ListView and a footer.
+ListView reads and displays all contacts.
+ListView also filters contacts using the search view in the Actionbar.
+List activity uses Loaders to load data asynchronously.
+This activity can handle device rotation.
+This activity also uses a progress bar to indicate data is being loaded.
+</string>
+    
+<string name="tla_footer">
+This is the footer for the custom content view.
+Although headers and footers can be done through a list view
+this sample uses explicit text views.
+</string>
+</resources>

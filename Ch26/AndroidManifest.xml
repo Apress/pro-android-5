@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.androidbook.loaders"
+      android:versionCode="1"
+      android:versionName="1.0.0">
+    <application android:name="com.androidbook.loaders.MyApplication"
+        android:icon="@drawable/icon" 
+        android:label="Test Loaders">
+        <activity android:name="com.androidbook.loaders.TestLoadersActivity"
+                  android:label="Test Loaders Via Contacts">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+</application>
+    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="14"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+</manifest> 

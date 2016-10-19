@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+*********************************************
+* tcc_test_config_change_activity_layout.xml
+* prefix: tcc_
+* See: Test Config Change Activity
+* Controls: 
+* 	edit control
+* 	menu  
+* Activity: TestConfigChangeActivity.java
+* See the activity documentation to see what this is for
+*********************************************
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/tcc_ll1"
+    >
+<TextView  
+	android:id="@+id/tcc_text1"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Your Debug Will Appear here"
+    android:freezesText="true"
+    />
+</LinearLayout>

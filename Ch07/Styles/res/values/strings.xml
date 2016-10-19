@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Styles</string>
+    <string name="styles_name">Styles Demo</string>
+
+    <string name="styledText"><i>Static</i> style in a <b>TextView</b>. Here\'s <strike>strike-through</strike>
+ and here\'s <sub>subscript</sub>, four squared: 4<sup>2</sup>. How about <big>BIG</big>, <small>small</small>
+ and <tt>monospace</tt>? And finally, what about <small><sub>small subscripts</sub></small>?</string>
+    <string name="italics"><i>Italics</i></string>
+
+</resources>

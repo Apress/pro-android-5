@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">
+    Choose menu to fireoff a broadcast event.
+    \n\nWatch the logcat for messages from various broadcast receivers 
+    in this process and also in the StandaloneBroadcastReceiver Process.
+    \n\nSome basic debug messages will show here as well.
+    \n\nTap Menu Now!  
+    </string>
+    <string name="app_name">HelloWorld</string>
+</resources>

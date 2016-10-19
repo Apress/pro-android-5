@@ -1,0 +1,64 @@
+<!-- 
+*********************************************
+* main_menu.xml
+* prefix: none
+* Activity: TestAsyncTaskDriverActivity.java
+* See the activity docs for more detail
+*********************************************
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- This group uses the default category. -->
+    <group android:id="@+id/menuGroup_Main">
+
+        <!-- 
+        *************************************************
+        * This will test the asynctask and a progress dialog
+        * Progress dialog handles orientation change.
+        * Uses ADOs to solve the problem.
+        *************************************************
+        -->
+        <item android:id="@+id/menu_test_flip"
+            android:title="Flip Dialog with ADOs" />
+        
+        <!-- 
+        *************************************************
+        * This will test the asynctask and a progress dialog
+        * Progress dialog handles orientation change.
+        * Uses retained headless fragments to solve the problem.
+        *************************************************
+        -->
+        <item android:id="@+id/menu_test_flip1"
+            android:title="Flip Dialog with Fragment" />
+        
+        <!-- 
+        *************************************************
+        * This will test the asynctask and a progress bar
+        * Progress dialog handles orientation change.
+        * Uses retained headless fragments to solve the problem.
+        *************************************************
+        -->
+        <item android:id="@+id/menu_test_pbars"
+            android:title="Test Progress Bars" />
+        
+        <!-- 
+        *************************************************
+        * This will show a series of progress bars for their look and feel
+        * Not critical to the chapter
+        *************************************************
+        -->
+        <item android:id="@+id/menu_show_pbars"
+            android:title="Show Progress Bars" />
+        
+        <!-- 
+        *************************************************
+        * This tests the ability of state change for edit controls
+        * Not critical to the chapter
+        *************************************************
+        -->
+        <item android:id="@+id/menu_test_config_change"
+            android:title="Test Config Change" />
+        
+        <item android:id="@+id/menu_clear"
+	     android:title="clear" />
+    </group>
+</menu>

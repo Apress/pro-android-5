@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- layout/bday_widget.xml -->
+<!-- 
+    android:layout_width="150dp"
+    android:layout_height="120dp"
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"  android:layout_height="fill_parent"
+    android:background="@drawable/box1">
+<TextView  
+	android:id="@+id/bdw_w_name"
+    android:layout_width="fill_parent" android:layout_height="40sp" 
+    android:text="Anonymous"  android:background="@drawable/box1"
+    android:gravity="center"  android:layout_weight="0"/>
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent" android:layout_height="fill_parent" 
+    android:layout_weight="1">
+	<TextView  
+		android:id="@+id/bdw_w_days"
+	    android:layout_width="wrap_content" android:layout_height="fill_parent" 
+	    android:gravity="center" android:layout_weight="50" 
+	    android:text="0" android:textSize="30sp" />
+	<TextView 
+	   android:id="@+id/bdw_w_button_buy"
+	    android:layout_width="wrap_content"  android:layout_height="fill_parent" 
+	    android:layout_weight="50"  android:gravity="center"
+	    android:textSize="20sp"  android:text="Buy"
+	    android:background="#FF6633"/>
+</LinearLayout>
+<TextView  
+	android:id="@+id/bdw_w_date"
+    android:layout_width="fill_parent"  android:layout_height="40sp" 
+    android:gravity="center" android:layout_weight="0"
+    android:text="1/1/2000" android:background="@drawable/box1"/>
+</LinearLayout>

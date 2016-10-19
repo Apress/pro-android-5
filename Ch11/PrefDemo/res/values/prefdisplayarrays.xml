@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is /res/values/prefdisplayarrays.xml -->
+<resources>
+<string-array name="flight_sort_options">
+    <item>Total Cost</item>
+    <item># of Stops</item>
+    <item>Airline</item>
+</string-array>
+<string-array name="pizza_toppings">
+    <item>Cheese</item>
+    <item>Pepperoni</item>
+    <item>Onions</item>
+    <item>Portabello Mushrooms</item>
+    <item>Black Olives</item>
+    <item>Smoked Ham</item>
+    <item>Pineapple</item>
+</string-array>
+</resources>

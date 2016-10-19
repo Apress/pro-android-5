@@ -1,0 +1,18 @@
+<!-- 
+*********************************************
+* tcc_menu.xml
+* prefix: tcc_
+* Activity: TestConfigChangeActivity.java
+* See the activity docs for more detail
+*********************************************
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- This group uses the default category. -->
+    <group android:id="@+id/tpb_menuGroup_Main">
+        <item android:id="@+id/tcc_menu_test1"
+            android:title="Test Progress Bars" />
+        
+        <item android:id="@+id/menu_clear"
+	     android:title="clear" />
+    </group>
+</menu>

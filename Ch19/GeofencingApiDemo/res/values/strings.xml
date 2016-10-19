@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Geofence Demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="braction">com.androidbook.maps.geofencing.intent.action.FENCE</string>
+</resources>

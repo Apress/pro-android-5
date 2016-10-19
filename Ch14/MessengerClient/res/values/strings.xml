@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Messenger Client</string>
+    <string name="remote_service_connected">Remote Service Connected</string>
+    <string name="remote_service_disconnected">Remote Service Disconnected</string>
+    
+</resources>

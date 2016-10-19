@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/menuGroup_Main">
+
+        <!-- 
+        *************************************************
+        * Menu for changing the LocationRequest priority
+        *************************************************
+        -->
+        <item android:id="@+id/menu_no_power"
+            android:title="Priority: NO_POWER" />
+        <item android:id="@+id/menu_low_power"
+            android:title="Priority: LOW_POWER" />
+        <item android:id="@+id/menu_balanced"
+            android:title="Priority: BALANCED" />
+        <item android:id="@+id/menu_high"
+	        android:title="Priority: HIGH_ACCURACY" />
+    </group>
+</menu>

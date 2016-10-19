@@ -1,0 +1,80 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- This group uses the default category. -->
+    <group android:id="@+id/menuGroup_Main">
+
+        <!--
+        *********************************************************
+        * Fire an alarm once.
+        * See the LogCat for a response in 30 seconds
+        * Implemented in file SendAlarmOnceTester.java 
+        ********************************************************* 
+        -->
+        <item android:id="@+id/menu_alarm_once"
+            android:title="Alarm Once" />
+
+        <!--
+        *********************************************************
+        * Fire an alarm repeatedly.
+        * See the LogCat for a response in 30 seconds
+        * Alarm will repeat every 5 secs after that
+        * Implemented in file SendRepatingAlarmTester.java 
+        ********************************************************* 
+        -->
+        <item android:id="@+id/menu_alarm_repeated"
+            android:title="Alarm Repeat" />
+            
+        <!--
+        *********************************************************
+        * Cancel the repeating Alarm.
+        * See the logcat and see that the repeating alarm has stopped
+        * Implemented in file CancelRepeatingAlarmTester.java 
+        ********************************************************* 
+        -->
+        <item android:id="@+id/menu_alarm_cancel"
+            android:title="Cancel Repeat Alarm" />
+            
+        <!--
+        *********************************************************
+        * Schedule the same intent multiple times.
+        * Only the last one takes effect
+        * Implemented in file ScheduleIntentMultipleTimesTester.java 
+        ********************************************************* 
+        -->
+        <item android:id="@+id/menu_alarm_multiple"
+            android:title="Multiple Alarms" />
+            
+        <!--
+        *********************************************************
+		Scheduling a series of 4 distinct alarms with the same intent.
+		The intent will be made distinct using the request id.
+		See the logcat for messages from each of the alarms.
+		You may want to cancel the previous alarms using the cancel alarms menu item.
+        Implemented in file ScheduleIntentMultipleTimesTester.java 
+        ********************************************************* 
+        -->
+        <item android:id="@+id/menu_alarm_distinct_intents"
+            android:title="Distinct Intents" />
+            
+        <!--
+        *********************************************************
+		If you schedule an alarm multiple times on the same intent
+		the last alarm will override the previous ones.
+		In this example a single shot alarm overrides the repeating alarm
+		when set on the same intent. See logcat that you won\'t see the
+		repeating alarm but gets fired only once. 
+		\n\nSchdeduling Repeating alarm in 5 sec interval starting at: %s
+        Implemented in file AlarmIntentPrimacyTester.java 
+        ********************************************************* 
+        -->
+        <item android:id="@+id/menu_alarm_intent_primacy"
+            android:title="Intent Primacy" />
+            
+        <!--
+        *********************************************************
+        This menu item clears the activity screen much like a debug console
+        ********************************************************* 
+        -->
+        <item android:id="@+id/menu_clear"
+	     android:title="clear" />
+    </group>
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+*********************************************
+* test_persistence_driver_activity_layout.xml
+* corresponding activity: TestPersitenceDriverActivity.java 
+* prefix: tpda_ (Used for prefixing unique identifiers) 
+* 
+* Use: 
+*    Has 2 buttons
+* 	 btn1: to invoke a test content provider activity
+*    btn2: to invoke a test sql storage activity
+*********************************************
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tpda_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="@string/tpda_informational_message"/>
+
+    <Button
+        android:id="@+id/tpda_test_content_provider_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Content Provider" 
+        android:onClick="startTestContentProviderActivity"/>
+
+    <Button
+        android:id="@+id/tpda_test_direct_storage_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test SQLite Direct Storage" 
+        android:onClick="startTestDirectSQLiteStorageActivity"/>
+</LinearLayout>

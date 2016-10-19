@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+  <TextView android:id="@+id/dateDefault"
+    android:layout_width="fill_parent" android:layout_height="wrap_content" />
+  
+  <DatePicker android:id="@+id/datePicker"
+    android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+  <TextView android:id="@+id/timeDefault"
+    android:layout_width="fill_parent" android:layout_height="wrap_content" />
+  
+  <TimePicker android:id="@+id/timePicker"
+    android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+</LinearLayout>

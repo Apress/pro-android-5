@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is /res/xml/nested_screen_basicfrag.xml -->
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<CheckBoxPreference
+	    android:key="user_likes_pref"
+		android:title="Do you like how this displays?"
+		/>
+
+</PreferenceScreen>

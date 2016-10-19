@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/menu_test_value_animator"
+            android:title="Test Value Animator" 
+            android:onClick="testValueAnimator"/>
+ </menu>

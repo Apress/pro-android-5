@@ -1,0 +1,62 @@
+<resources>
+<string name="debughint">
+This program helps you to test alarms.
+Click Menu to see the available options.
+See the file /menu/main_menu.xml to find what each menu does.
+\n\nVarious menu items allow you to set alarms.
+\n\nSee the LogCat to see messages from the receivers that respond to these alarms
+\n\nSome debug messages will appear on this activity here, but for the rest you 
+have to see the logcat.
+</string>
+
+<string name="alarmonce_message">
+\n\n
+Fire an alarm once.
+See the LogCat for a response in 30 seconds. 
+Implemented in file SendAlarmOnceTester.java.
+\n\nSchdeduling alarm at: %s 
+</string>
+
+<string name="alarmrepeated_message">
+\n\n
+Fire an alarm repeatedly.
+See the LogCat for a response in 30 seconds. 
+Alarm will repeat every 5 secs after that. 
+Implemented in file SendRepatingAlarmTester.java
+\n\nSchdeduling Repeating alarm in 5 sec interval starting at:%s  
+</string>
+
+<string name="alarm_cancel_message">
+\n\n
+Cancel the repeating Alarm.
+See the logcat and see that the repeating alarm has stopped. 
+Implemented in file CancelRepeatingAlarmTester.java.
+</string>
+
+<string name="alarm_multiples_message">
+Schedule the same intent multiple times. 
+Only the last one takes effect. 
+Implemented in file ScheduleIntentMultipleTimesTester.java
+\n\nSchdeduling alarms at:%s  
+</string>
+
+<string name="distinctalarms_message">
+\n\n
+Scheduling a series of 4 distinct alarms with the same intent. 
+The intent will be made distinct using the request id. 
+See the logcat for messages from each of the alarms. 
+You may want to cancel the previous alarms using the cancel alarms menu item.
+\n\nAlarms set to go off at:%s
+</string>
+
+<string name="intentprimacy_message">
+\n\n
+If you schedule an alarm multiple times on the same intent
+the last alarm will override the previous ones. 
+In this example a single shot alarm overrides the repeating alarm
+when set on the same intent. See logcat that you won\'t see the
+repeating alarm but gets fired only once. 
+\n\nSchdeduling Repeating alarm in 5 sec interval starting at: %s
+</string>
+
+</resources>

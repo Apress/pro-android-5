@@ -1,0 +1,9 @@
+<resources>
+<item type="id" name="menu_da_clear"/>
+<string name="debug_text">
+    Click/Tap Menu to see options to exercise this application.
+    Any debug text from the application will be displayed here.
+    This text view is scrollable. 
+    Use the menu option "Clear" to clear this text view.
+</string>
+</resources>

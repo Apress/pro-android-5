@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is /res/xml/frag2.xml -->
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<CheckBoxPreference
+	    android:key="second_header_checkbox"
+		android:title="Feel comfortable yet?" />
+
+</PreferenceScreen>

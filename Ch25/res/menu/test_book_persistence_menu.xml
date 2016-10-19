@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+      <item android:id="@+id/menu_show_books"
+          android:title="Show Books" />
+
+      <item android:id="@+id/menu_add_book"
+          android:title="Add Book" />
+          
+      <item android:id="@+id/menu_delete_book"
+          android:title="Remove Book" />
+          
+      <item android:id="@id/menu_da_clear"
+    	android:title="clear" />
+</menu>

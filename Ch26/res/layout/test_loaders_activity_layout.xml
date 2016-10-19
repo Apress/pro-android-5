@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+*********************************************
+* test_loaders_activity_layout.xml
+* corresponding activity: TestLoadersActicity.java 
+* prefix: tla_ (Used for prefixing unique identifiers) 
+* 
+* Use: 
+*    Demonstrate loading a cursor using loaders
+* Structure:
+*    Header message: text view (tla_header)
+*    ListView Heading, ListView (fixed)
+*    ProgressBar (To show when data is being fetched)
+*    Empty View (To show when the list is empty): ProgressBar
+*    Footer: text view (tla_footer)
+************************************************
+--> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:orientation="vertical"
+         android:layout_width="match_parent"  android:layout_height="match_parent"
+         android:paddingLeft="2dp"  android:paddingRight="2dp">
+    <!--  Header and Main documentation text -->
+    <TextView android:id="@+id/tla_header"
+               android:layout_width="match_parent"  android:layout_height="wrap_content"
+               android:background="@drawable/box2"
+         	   android:layout_marginTop="4dp" android:padding="8dp"
+               android:text="@string/tla_header"/>
+    <!--  Heading for the list view -->
+    <TextView android:id="@+id/tla_listview_heading"
+               android:layout_width="match_parent"    android:layout_height="wrap_content"
+               android:background="@color/gray"
+         	   android:layout_marginTop="4dp"  android:padding="8dp"
+	           android:textColor="@color/black" style="@android:style/TextAppearance.Medium"
+               android:text="List of Contacts"/>
+    <!--  ListView used by the ListActivity. Uses a standard id needed by a list view -->
+    <!--  Fix the height of the listview in a production setting -->
+    <ListView android:id="@android:id/list"
+               android:layout_width="match_parent"  android:layout_height="wrap_content"
+               android:background="@drawable/box2"
+         	   android:layout_marginTop="4dp" android:layout_marginBottom="4dp"
+               android:drawSelectorOnTop="false"/>
+    <!--  To show and hide the progress bar as loaders load data -->
+    <ProgressBar android:id="@+id/tla_pbar"
+               android:layout_width="match_parent" android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:indeterminate="true"/>
+     <!--  Uses a standard id needed by a list view -->
+     <TextView android:id="@android:id/empty"
+               android:layout_width="match_parent" android:layout_height="wrap_content"
+               android:visibility="gone"
+         	   android:layout_marginTop="4dp"  android:layout_marginBottom="4dp"
+	           android:padding="8dp"
+               android:text="No Contacts to Match the Criteria"/>
+     <!--  Additional documentation text and the footer-->
+     <TextView android:id="@+id/tla_footer"
+               android:layout_width="match_parent"  android:layout_height="wrap_content"
+               android:background="@drawable/box2"  android:padding="8dp"
+               android:text="@string/tla_footer"/>
+</LinearLayout>
